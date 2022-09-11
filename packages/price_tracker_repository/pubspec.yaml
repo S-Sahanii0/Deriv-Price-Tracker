@@ -1,0 +1,21 @@
+name: price_tracker_repository
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  freezed: ^2.1.0+1
+  price_tracker_api_client:
+    path: ../price_tracker_api_client
+
+dev_dependencies:
+  build_runner: ^2.2.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.0.1
